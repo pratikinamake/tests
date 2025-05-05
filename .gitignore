@@ -1,0 +1,98 @@
+# Maven #
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Gradle #
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java #
+*.class
+*.log
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA #
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+# Exclude all IDEA modules.
+.idea/modules.xml
+# IntelliJ project files
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Eclipse #
+*.pydevproject
+.project
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.recommenders
+
+# STS #
+.springBeans
+
+# Virtual Machine Files #
+*.vm
+
+# OS-specific #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application-specific #
+# Spring Boot specific artifacts #
+spring.log
+spring-boot-admin.log
+
+# General #
+.vscode/
+*.vscode
+*.swp
+*~
+*.bak
+*.hprof
+*.log
+*.sql
+*.tar.gz
+*.zip
+*.rar
+*.exe
+*.dll
+*.so
+*.dylib
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
