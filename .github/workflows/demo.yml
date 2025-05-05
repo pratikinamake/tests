@@ -8,7 +8,7 @@ on:
 jobs:
   deploy:
     name: Copy files to web server
-    runs-on: [self-hosted, test]
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
