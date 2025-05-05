@@ -1,0 +1,19 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Copy files to web server
+    runs-on: [self-hosted, test]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Copy files to /var/www/html
+        run: |
+          sudo cp -r ./ /var/www/html/
